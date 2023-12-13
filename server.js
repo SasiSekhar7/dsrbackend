@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const uri = 'mongodb+srv://tanmay:B5CvYnNeJ1@practice.qwvizgs.mongodb.net/?retryWrites=true&w=majority'
+const uri = ''
 // Connect to MongoDB
 mongoose.connect(uri, {
   useNewUrlParser: true,
